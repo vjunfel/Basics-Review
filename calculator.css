@@ -1,8 +1,16 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 2rem;
 	box-sizing: border-box;
 	background-color: black;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	color: rgb(0, 119, 255);
 }
 
 #calculator {
@@ -10,8 +18,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100dvh;
-	padding: 1rem;
+	padding: 2rem 1rem;
 	max-width: 500px;
 	margin: auto;
 }
@@ -65,9 +72,16 @@ button:active {
 .clear:active {
 	background-color: hsl(0, 71%, 55%);
 }
+.equal-container {
+	width: 74%;
+	text-align: end;
+}
 
 .equal {
-	background-color: rgb(30, 28, 28);
-	color: white;
-	border: 1px solid gray;
+	background-color: hsl(0, 0%, 80%);
+	color: #000000;
+	border: 1px solid rgb(39, 39, 39);
+	width: 180px;
+	margin-top: 1rem;
+	align-items: end;
 }
